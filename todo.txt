@@ -3,3 +3,8 @@ comparar as 3 abordagem
 acurácia de cada um deles (sqrt error)
 desvio padrão
 cross fold validation 
+
+Atualizar o GitHub: Stage / Commit / Push
+git add rec_sys_apresentacao.ipynb  
+git commit -m "Segundo commit"
+git push -u origin main
