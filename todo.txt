@@ -1,10 +1,24 @@
+Separar 10% dos ratings para teste!
+
 Calcular métricas de cada um
 comparar as 3 abordagem
 acurácia de cada um deles (sqrt error)
 desvio padrão
-cross fold validation 
+cross fold validation -> acurácia de 99%
+
+hold out, divide uma vez em treino e teste
 
 Atualizar o GitHub: Stage / Commit / Push
 git add rec_sys_apresentacao.ipynb  
 git commit -m "Segundo commit"
 git push -u origin main
+
+
+1 - Carregar a base
+2 - Dividir a base: 90% treino / 10% teste
+3 - Construir a matriz de similaridade com treino
+4 - Gerar a recomendação pra um usuário
+5 - Usar o teste checar na acurácia com média rmse
+6 - Definir o intervalo de certeza dos resultados
+
+FAZER O MESMO PARA OS 3 MODELOS
